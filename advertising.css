@@ -1,0 +1,52 @@
+body {           
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}                         /* отступы раздела body */
+
+
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 83%;
+    background: url(https://images.unsplash.com/photo-1555406952-814eb7de8cde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80) 
+    bottom no-repeat;
+    background-size: cover;
+    background-color: aqua;
+}        /* задний фон и центровка текста новость */
+
+h1 {
+    color: rgb(7, 6, 6);
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   /* стиль заголовка НОВОСТЬ */
+
+footer {
+    border-top: 2px solid rgb(128, 128, 128);
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+  
+}
+
+footer .links {
+    margin-bottom: 20px;
+}
+
+footer .links > a 
+{
+    color: #030507;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
