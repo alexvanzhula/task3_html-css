@@ -66,24 +66,24 @@ h1 {
     max-width: 100%!important;
 }
 
-article {
+main {
     margin-left: 10px;
     padding: 6px 15px;
 
     
 } /* маштабирование подновости относительно сайта */
 
-article a {
+main a {
     color: rgb(33, 37, 41);
     text-decoration: none;
 } /* цвет ссылок */
 
-article a:visited { 
+main a:visited { 
     color: purple; 
 }     /* Посещённые ссылки */
     
 
-article a:hover {
+main a:hover {
     color: #0085a1;
    
 } /* подсветка ссылки при наведении на текст */
@@ -98,7 +98,7 @@ article a:hover {
 
 
 
-article p{
+main p{
     font-size: 1.5rem ;
 }
 
