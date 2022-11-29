@@ -29,7 +29,7 @@ h1 {
    align-items:stretch;
    min-height: 450px;
     
-}
+}   /* стиль для всех новостей*/
 
 .news {
     display: block;
@@ -43,7 +43,7 @@ h1 {
     max-width: 400px;
     max-height: 450px;
 
-}
+} /* стиль для отдельной новости*/
 
 
 .article_meta {
@@ -53,34 +53,32 @@ h1 {
    text-align: left;
    margin-bottom: 25px;
    
-}
+} /* название новости */
 
 .cont_author {
     font-size: 20px;
     color: coral;
     margin-bottom: 20px;
     text-align: left;
-}
+} /* автор новости */
    
 .news img {
     width: 16vw;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
-
-}
+} /* стиль для картинок которые используются в новостях*/
 
 
 footer {
     border-top: 2px solid rgb(128, 128, 128);
     padding-top: 30px;
     padding-bottom: 10px;
-    text-align: center;
-  
-}
+    text-align: center; 
+} /* нижний футер*/
 
 footer .links {
     margin-bottom: 20px;
-}
+} 
 
 footer .links > a 
 {
@@ -104,11 +102,11 @@ footer .links > a
 }
 
 
-/*.news:nth-child(1)::before {
+.news:nth-child(1)::before {
     content: 'new'
 }
 
 
 .news:nth-child(2)::before {
     content: 'new'
-} */
+} 
