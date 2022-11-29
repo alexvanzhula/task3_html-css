@@ -1,10 +1,8 @@
 body {           
     margin: 0;
     padding: 0;
-    overflow: hidden;
+   
 }                         /* отступы раздела body */
-
-
 
 header {
     display: flex;
@@ -22,85 +20,55 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }   /* стиль заголовка НОВОСТЬ */
 
+
 .all_news {
-    
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     background-size: cover;
-    min-height: 400px;
-    width: auto;
-    max-width: 100%;
+   align-items:stretch;
+   min-height: 450px;
     
-} /* стиль для всех новостей */
-
+}
 
 .news {
-    display: inline;
-    width:25%;
-   /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
     font-size: 15px;
-    width: 50vh;
-    background-color: #fff;
-    max-height: 100%;*/
-    img
-} /* стиль для каждой новости */
-.news-category{
-    height: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.first-content{
-    min-height: auto;
-    min-height: 230px;
-}
-.news-image{
-    /*height: 70px;*/
-    width: 100%;
-}
-.news-image img{
-    max-width: 100%!important;
+    padding-left: 5px;
+    padding-top: 20px;
+    text-align: center;  
+    margin: 5 15px;
+    border: 2px solid gold;
+    background-color:burlywood;
+    max-width: 400px;
+    max-height: 450px;
+
 }
 
-main {
-    margin-left: 10px;
-    padding: 6px 15px;
 
-    
-} /* маштабирование подновости относительно сайта */
-
-main a {
-    color: rgb(33, 37, 41);
-    text-decoration: none;
-} /* цвет ссылок */
-
-main a:visited { 
-    color: purple; 
-}     /* Посещённые ссылки */
-    
-
-main a:hover {
-    color: #0085a1;
+.article_meta {
+   font-size: 22px; 
+   margin-bottom: 10px;
+   padding-left: 5px;
+   text-align: left;
+   margin-bottom: 25px;
    
-} /* подсветка ссылки при наведении на текст */
-
-
-.article-meta {
-    color: rgb(134, 142, 150);
-    margin-bottom: 5px;
-    position: relative;
-    bottom: 20px;
-} /* стиль для параграфа кем опубликова новость */
-
-
-
-.box p{
-    font-size: 1.5rem ;
 }
+
+.cont_author {
+    font-size: 20px;
+    color: coral;
+    margin-bottom: 20px;
+    text-align: left;
+}
+   
+.news img {
+    width: 16vw;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+
+}
+
 
 footer {
     border-top: 2px solid rgb(128, 128, 128);
@@ -131,28 +99,16 @@ footer .links > a
 }
 
 
-.font {
-    font-size: medium;
-}
-
-article p {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-article img {
-    max-width: 70%;
-    height: auto;
-    border-radius: 8px;
-}
-
 .news:nth-child(even) {
-    background-color: burlywood;
+    background-color: rgb(95, 243, 206);
 }
 
 
-.news:nth-child(1)::before,
-.news:nth-child(2)::before {
+/*.news:nth-child(1)::before {
     content: 'new'
 }
+
+
+.news:nth-child(2)::before {
+    content: 'new'
+} */
