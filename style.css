@@ -98,7 +98,7 @@ main a:hover {
 
 
 
-main p{
+.box p{
     font-size: 1.5rem ;
 }
 
@@ -131,7 +131,7 @@ footer .links > a
 }
 
 
-#font {
+.font {
     font-size: medium;
 }
 
