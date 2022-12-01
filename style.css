@@ -11,16 +11,19 @@ header {
     height: 370px;
     background: url(https://images.unsplash.com/photo-1669286081807-5dbaf484a371?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) 
     bottom no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }        /* задний фон и центровка текста новость */
 
 h1 {
     color: rgb(7, 6, 6);
     font-size: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: color 2s;
 }   /* стиль заголовка НОВОСТЬ */
 
-
+header h1:hover {
+    color:chartreuse;
+}
 .all_news {
     display: flex;
     flex-direction: row;
@@ -38,7 +41,6 @@ h1 {
     padding-top: 20px;
     text-align: center;  
     margin: 5 15px;
-    border: 2px solid gold;
     background-color:burlywood;
     max-width: 400px;
     max-height: 450px;
@@ -52,14 +54,32 @@ h1 {
    padding-left: 5px;
    text-align: left;
    margin-bottom: 25px;
+   text-decoration: none;
    
 } /* название новости */
+
+.article_meta a {
+    transition: color 3s;
+}
+
+.news p:hover {
+    color:#030507
+}
+
+.article_meta a:hover {
+    color:rgb(3, 0, 0);
+}
+
+.cont_author:hover {
+    color:black;
+}
 
 .cont_author {
     font-size: 20px;
     color: coral;
     margin-bottom: 20px;
     text-align: left;
+    transition: color 0.5s;
 } /* автор новости */
    
 .news img {
@@ -102,11 +122,10 @@ footer .links > a
 }
 
 
-.news:nth-child(1)::before {
-    content: 'new'
+.article_meta:nth-child(1)::before {
+    content: 'new';
 }
 
-
-.news:nth-child(2)::before {
+/*.news:nth-child(2)::before {
     content: 'new'
 } 
