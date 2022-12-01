@@ -122,10 +122,10 @@ footer .links > a
 }
 
 
-.article_meta:nth-child(1)::before {
+.news:nth-child(1)::before {
     content: 'new';
 }
 
-/*.news:nth-child(2)::before {
-    content: 'new'
+.news:nth-child(2)::before {
+    content: 'new';
 } 
